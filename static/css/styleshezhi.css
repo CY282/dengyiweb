@@ -1,0 +1,45 @@
+.shezhi-background{
+    background-color: rgb(8, 60, 15);
+    border: 10px ridge lightblue;
+    min-height: 100vh;
+    margin:0px;
+    overflow: hidden;
+    background: url(/static/picture/甲方要求背景.png) no-repeat;  
+    background-size:100% 100%;
+    background-attachment:fixed;
+}
+.shezhih1{
+   font-size: 80px;
+    font-family: 华文行楷;
+}
+
+.shezhidiv1{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: 华文行楷;
+}
+.shezhi-back{
+        width: 170px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 8px;
+        color:rgb(46, 97, 169);
+        background-color: white;
+        font-size: 30px;
+        font-family: 华文行楷;
+        margin-left: 4px;
+        margin-top: 300px;
+}
+
+.shezhi-back:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.gaunyuwomeng{
+    font-size: 40px;
+    font-family: 华文行楷;
+
+}

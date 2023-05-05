@@ -1,0 +1,39 @@
+.third-background{
+    background-color: rgb(8, 60, 15);
+    border: 10px ridge lightblue;
+    min-height: 100vh;
+    margin:0px;
+    overflow: hidden;
+    background: url('/static/picture/甲方要求背景.png') no-repeat;  
+    background-size:100% 100%;
+    background-attachment:fixed;
+}
+.third-h1{
+    font-size: 50px;
+    font-family: 华文行楷;
+    margin-left: 5px;
+}
+.third-pres{
+    font-size: 30px;
+    font-family: 华文行楷;
+    width: 80%;
+    height: 70%;
+
+}
+.third-back{
+    width: 170px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 8px;
+    color:rgb(46, 97, 169);
+    background-color: white;
+    font-size: 30px;
+    font-family: 华文行楷;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+.third-back:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    cursor: pointer;
+}
